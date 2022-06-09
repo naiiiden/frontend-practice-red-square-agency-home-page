@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Manrope:wght@200;300;400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap');
 
+@font-face {
+    font-family: youngserifregular;
+    src: url(../fonts/YoungSerif-Regular.otf);
+}
+
 $red: #e31e3c;
 $white: #fefefe;
 $black: #111111;
@@ -15,7 +20,6 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: Manrope, sans-serif;
-    // font-family: PT Serif, sans-serif;
 }
 
 img {
