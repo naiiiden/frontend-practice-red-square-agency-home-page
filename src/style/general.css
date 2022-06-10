@@ -52,4 +52,10 @@ header .nav--link {
   line-height: 30px;
   height: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 9.5vw 6.5vw;
+  }
+}
 /*# sourceMappingURL=general.css.map */
