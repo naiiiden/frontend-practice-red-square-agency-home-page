@@ -58,4 +58,10 @@ header .nav--link {
     padding: 9.5vw 6.5vw;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 100px 12vw;
+  }
+}
 /*# sourceMappingURL=general.css.map */
