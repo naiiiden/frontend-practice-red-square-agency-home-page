@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Manrope:wght@200;300;400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap');
-
 @font-face {
     font-family: youngserifregular;
     src: url(../fonts/YoungSerif-Regular.otf);
+}
+
+@font-face {
+    font-family: circular-bold;
+    src: url(../fonts/lineto-circular-bold.woff2);
+}
+
+@font-face {
+    font-family: circular-book;
+    src: url(../fonts/lineto-circular-book.woff2);
 }
 
 $red: #e31e3c;
 $white: #fefefe;
 $black: #111111;
 $gray: #858585;
+
+$blue: #1779ba;
 
 * {
     margin: 0;
@@ -19,7 +29,7 @@ $gray: #858585;
 body {
     width: 100%;
     min-height: 100vh;
-    font-family: Manrope, sans-serif;
+    font-family: circular-book, sans-serif;
     background-color: $black;
 }
 
