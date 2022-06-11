@@ -71,6 +71,16 @@ header .nav--link span {
   header {
     padding: 100px 12vw;
   }
+  header .nav--link {
+    display: inline-block;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+  }
+  header .nav--link span {
+    display: inline-block;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+  }
   header .nav--link:hover {
     display: inline-block;
     background: rgba(0, 0, 0, 0.5);
@@ -80,15 +90,15 @@ header .nav--link span {
             transform: translateX(5px);
     -webkit-box-shadow: -50vw 50vh 50rem 100vw rgba(0, 0, 0, 0.5);
             box-shadow: -50vw 50vh 50rem 100vw rgba(0, 0, 0, 0.5);
-    -webkit-transition: 0.4s cubic-bezier(0.135, 0.805, 0.305, 0.905) 0.1s;
-    transition: 0.4s cubic-bezier(0.135, 0.805, 0.305, 0.905) 0.1s;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   header .nav--link:hover span {
     display: inline-block;
-    -webkit-transform: translateX(1rem);
-            transform: translateX(1rem);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
   }
 }
 /*# sourceMappingURL=general.css.map */

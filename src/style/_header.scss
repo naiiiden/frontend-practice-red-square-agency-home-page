@@ -33,20 +33,26 @@ header {
         padding: 100px 12vw;
 
         .nav--link {
+            display: inline-block;
+            transition: .2s ease-out;
+
+            span {
+                display: inline-block;
+                transition: .2s ease-out;
+            }
+
             &:hover {
                 display: inline-block;
                 background: rgba(0, 0, 0, 0.5);
                 transform: scale(1.1);
                 transform: translateX(5px);
                 box-shadow: -50vw 50vh 50rem 100vw rgba(0,0,0,0.5);
-    
-                transition: .4s cubic-bezier(.135,.805,.305,.905) .1s;
-                // transform .4s cubic-bezier(.135,.805,.305,.905) .1s
+                transition: .2s;
     
                 span {
                     display: inline-block;
-                    transform: translateX(1rem);
-                    transition: .3s ease-in-out;
+                    transform: translateX(5px);
+                    transition: .2s ease-in-out;
                 }
             }
         }
