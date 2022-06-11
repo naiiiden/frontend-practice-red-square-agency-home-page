@@ -51,11 +51,19 @@ header .nav--link {
   font-size: 1.0625rem;
   line-height: 30px;
   height: 30px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
 }
 
 @media screen and (min-width: 768px) {
   header {
     padding: 9.5vw 6.5vw;
+  }
+  header .nav--link {
+    font-size: 1.25rem;
   }
 }
 
