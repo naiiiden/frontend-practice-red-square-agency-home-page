@@ -52,10 +52,10 @@ header .nav--link {
   line-height: 30px;
   height: 30px;
   background: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1rem;
+}
+
+header .nav--link span {
+  margin-left: .5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,6 +70,25 @@ header .nav--link {
 @media screen and (min-width: 1024px) {
   header {
     padding: 100px 12vw;
+  }
+  header .nav--link:hover {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+    -webkit-box-shadow: -50vw 50vh 50rem 100vw rgba(0, 0, 0, 0.5);
+            box-shadow: -50vw 50vh 50rem 100vw rgba(0, 0, 0, 0.5);
+    -webkit-transition: 0.4s cubic-bezier(0.135, 0.805, 0.305, 0.905) 0.1s;
+    transition: 0.4s cubic-bezier(0.135, 0.805, 0.305, 0.905) 0.1s;
+  }
+  header .nav--link:hover span {
+    display: inline-block;
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
   }
 }
 /*# sourceMappingURL=general.css.map */

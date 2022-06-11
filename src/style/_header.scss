@@ -11,8 +11,10 @@ header {
         line-height: 30px;
         height: 30px;
         background: transparent;
-        display: flex;
-        gap: 1rem;
+
+        span {
+            margin-left: .5rem;
+        }
     }
 }
 
@@ -29,5 +31,24 @@ header {
 @media screen and (min-width: 1024px) {
     header {
         padding: 100px 12vw;
+
+        .nav--link {
+            &:hover {
+                display: inline-block;
+                background: rgba(0, 0, 0, 0.5);
+                transform: scale(1.1);
+                transform: translateX(5px);
+                box-shadow: -50vw 50vh 50rem 100vw rgba(0,0,0,0.5);
+    
+                transition: .4s cubic-bezier(.135,.805,.305,.905) .1s;
+                // transform .4s cubic-bezier(.135,.805,.305,.905) .1s
+    
+                span {
+                    display: inline-block;
+                    transform: translateX(1rem);
+                    transition: .3s ease-in-out;
+                }
+            }
+        }
     }
 }
