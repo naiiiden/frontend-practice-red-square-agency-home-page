@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <img src={Logo} alt="Red Square's logo" className="header--logo"/>
             <nav>
-                <a href="#" className="nav--link">Work <span><img src={Arrow} alt=""/></span></a>
+                <a href="https://www.redsquareagency.com/work" className="nav--link">Work<span><img src={Arrow} alt=""/></span></a>
             </nav>
         </header>
     )
