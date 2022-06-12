@@ -197,9 +197,12 @@ main {
         .hero--slideshow {
             height: calc(65vw - 150px);
             margin: 0 5vw;
-            
-            img {
-                border-radius: .25rem;
+            border-radius: .375rem;
+            transition: .2s;
+
+            &:hover {
+                transform: scale(.99);
+                transition: .2s;
             }
         }
     }

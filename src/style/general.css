@@ -351,9 +351,15 @@ main .hero--slideshow {
   main .hero--slideshow {
     height: calc(65vw - 150px);
     margin: 0 5vw;
+    border-radius: .375rem;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
-  main .hero--slideshow img {
-    border-radius: .25rem;
+  main .hero--slideshow:hover {
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 
