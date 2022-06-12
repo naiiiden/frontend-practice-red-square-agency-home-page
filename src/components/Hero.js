@@ -25,7 +25,7 @@ const Hero = () => {
             </h1>
             <div className="hero--slideshow">
                 <a href="#">
-                    <img src={img4} alt="" className="img img4"/>
+                    {/* <img src={img4} alt="" className="img img4"/>
                     <img src={img12} alt="" className="img img12"/>
                     <img src={img10} alt="" className="img img10"/>
                     <img src={img9} alt="" className="img img9"/>
@@ -36,7 +36,7 @@ const Hero = () => {
                     <img src={img3} alt="" className="img img3"/>
                     <img src={img7} alt="" className="img img7"/>
                     <img src={img5} alt="" className="img img5"/>
-                    <img src={img8} alt="" className="img img8"/>
+                    <img src={img8} alt="" className="img img8"/> */}
 
                 </a>
             </div>

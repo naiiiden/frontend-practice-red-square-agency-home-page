@@ -68,95 +68,84 @@ main {
         margin-bottom: 9%;
         position: relative;
         height: calc(82.5vw - 80px);
+        background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
+        background-size: 100% 100%;
+        animation-name: bgslideshow;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
 
-        @keyframes slideshow {
-            0% {
-                z-index: 0;
+        @keyframes bgslideshow {
+            8.33% {
+                background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
+                background-size: 100% 100%;
+            }
+
+            16.66% {
+                background: url("https://images.prismic.io/red-square-site/fdc93bb6-72be-46e1-9a39-a7098faabb64_snickers-thumb.jpg");
+                background-size: 100% 100%;
+                
+            }
+
+            24.99%{
+                background: url("https://images.prismic.io/red-square-site/cb3e7330e12dd68d995b4e1fe2735a00949853c1_red-work-thumbs.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
+            }
+
+            33.32% {
+                background: url("https://images.prismic.io/red-square-site/bc411035-c8b0-4ad8-8d57-345b2c74a672_red-case-kovitz-thumbnail.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
+            }
+
+            41.65% {
+                background: url("https://images.prismic.io/red-square-site/f4eb0f86-3bbd-47b9-a105-371ad8f7fd70_UA-Thumbnail.jpg?auto=compress,format");
+                background-size: 100% 100%;
+
+            }
+
+            49.98% {
+                background: url("https://images.prismic.io/red-square-site/5d5746b1-b8a6-4b55-be71-50203021c521_RED_Website_IceBox_Cover.jpg?auto=compress,format");
+                background-size: 100% 100%;
+
+            }
+
+            58.31% {
+                background: url("https://images.prismic.io/red-square-site/3daacb44-40a6-4213-83c2-69c76683ba79_cne-thumb.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
+            }
+
+            66.64% {
+                background: url("https://images.prismic.io/red-square-site/992de052-dc47-4a44-bc24-039288ede276_hibbett-thumb.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
+            }
+
+            74.97% {
+                background: url("https://images.prismic.io/red-square-site/6a1afdaa20e7d4a42952a5594906d6d06542662b_bad-testing-thumb.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
+            }
+
+            83.33% {
+                background: url("https://images.prismic.io/red-square-site/01789f8c-0b69-4ce8-905e-fc1e47d9fbbe_red-work-soco-thumbnail.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
+            }
+
+            91.63% {
+                background: url("https://images.prismic.io/red-square-site/49e012f2-f7b2-418a-a7a5-3db5f4ae3d5c_RED_Website_WaffleStop_Hero.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
             }
 
             100% {
-                z-index: 100;
+                background: url("https://images.prismic.io/red-square-site/57925d5b-543a-4132-9f4a-6032390986f5_reeses-thumbnail.jpg?auto=compress,format");
+                background-size: 100% 100%;
+                
             }
         }
-
-        .img {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
-
-        .img4 {
-            animation-name: slideshow;
-            animation-duration: .5s;
-            animation-iteration-count: infinite;
-        }
-
-        .img12 {
-            animation-name: slideshow;
-            animation-duration: 2.7s;
-            animation-iteration-count: infinite;
-        }
-
-        .img10 {
-            animation-name: slideshow;
-            animation-duration: 13.3s;
-            animation-iteration-count: infinite;
-        }
-
-        .img9 {
-            animation-name: slideshow;
-            animation-duration: 8.4s;
-            animation-iteration-count: infinite;
-        }
-
-        .img11 {
-            animation-name: slideshow;
-            animation-duration: 10.5s;
-            animation-iteration-count: infinite;
-        }
-
-        .img2 {
-            animation-name: slideshow;
-            animation-duration: 12.6s;
-            animation-iteration-count: infinite;
-        }
-
-        .img1 {
-            animation-name: slideshow;
-            animation-duration: 3.7s;
-            animation-iteration-count: infinite;
-        }
-
-        .img6 {
-            animation-name: slideshow;
-            animation-duration: 4.8s;
-            animation-iteration-count: infinite;
-        }
-
-        .img3 {
-            animation-name: slideshow;
-            animation-duration: 9.9s;
-            animation-iteration-count: infinite;
-        }
-
-        .img7 {
-            animation-name: slideshow;
-            animation-duration: 2.10s;
-            animation-iteration-count: infinite;
-        }
-
-        .img5 {
-            animation-name: slideshow;
-            animation-duration: 7.11s;
-            animation-iteration-count: infinite;
-        }
-
-        .img8 {
-            animation-name: slideshow;
-            animation-duration: 5.12s;
-            animation-iteration-count: infinite;
-        }
-
     }
 }
 
