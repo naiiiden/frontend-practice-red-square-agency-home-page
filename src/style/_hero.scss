@@ -150,5 +150,19 @@ main {
             font-size: 6.25rem;
             line-height: 100px;
         }
+
+        .hero--slideshow {
+            margin: 0 7vw;
+            height: calc(65vw - 200px);
+            max-height: 750px;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    main {
+        .hero--slideshow {
+            max-height: 950px;
+        }
     }
 }
