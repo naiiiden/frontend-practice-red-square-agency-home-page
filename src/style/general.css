@@ -122,6 +122,84 @@ main .hero--heading {
   letter-spacing: -.59px;
 }
 
+main .hero--heading .span1 {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+main .hero--heading .span2 {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 4.25s;
+          animation-duration: 4.25s;
+}
+
+main .hero--heading .span3 {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 4.5s;
+          animation-duration: 4.5s;
+}
+
+main .hero--heading .span4 {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 4.75s;
+          animation-duration: 4.75s;
+}
+
+main .hero--heading .span5 {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+main .hero--heading .span6 {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 5.25s;
+          animation-duration: 5.25s;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
 @media screen and (min-width: 425px) {
   main .hero--heading {
     font-size: 2.1875rem;
