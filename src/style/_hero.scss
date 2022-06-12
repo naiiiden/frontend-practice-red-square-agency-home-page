@@ -122,6 +122,15 @@ main {
             font-size: 6.94444vw;
             line-height: 6.8vw;
         }
+
+        .hero--slideshow {
+            height: calc(65vw - 150px);
+            margin: 0 5vw;
+            
+            img {
+                border-radius: .25rem;
+            }
+        }
     }
 }
 

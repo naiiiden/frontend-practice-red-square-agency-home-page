@@ -244,6 +244,13 @@ main .hero--slideshow .img {
     font-size: 6.94444vw;
     line-height: 6.8vw;
   }
+  main .hero--slideshow {
+    height: calc(65vw - 150px);
+    margin: 0 5vw;
+  }
+  main .hero--slideshow img {
+    border-radius: .25rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
