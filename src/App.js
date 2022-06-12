@@ -7,6 +7,7 @@ const App = () => {
     <div>
       <Header/>
       <Hero/>
+      <h1>TEST</h1>
     </div>
   )
 }
