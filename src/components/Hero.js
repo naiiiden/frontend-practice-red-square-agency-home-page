@@ -24,7 +24,7 @@ const Hero = () => {
                 <span className="hero--heading--span span6">next.</span>
             </h1>
             <div className="hero--slideshow">
-                <a href="#">
+                <a href="https://www.redsquareagency.com/work">
                     {/* <img src={img4} alt="" className="img img4"/>
                     <img src={img12} alt="" className="img img12"/>
                     <img src={img10} alt="" className="img img10"/>

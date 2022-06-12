@@ -214,6 +214,12 @@ main .hero--slideshow {
           animation-iteration-count: infinite;
 }
 
+main .hero--slideshow a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
 @-webkit-keyframes bgslideshow {
   0% {
     background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
