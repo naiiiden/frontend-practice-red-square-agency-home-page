@@ -233,6 +233,9 @@ main .hero--slideshow .img {
     font-size: 4.25rem;
     line-height: 72px;
   }
+  main .hero--slideshow {
+    height: calc(65vw - 105px);
+  }
 }
 
 @media screen and (min-width: 1024px) {
