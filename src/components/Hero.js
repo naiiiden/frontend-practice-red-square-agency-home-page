@@ -21,7 +21,7 @@ const Hero = () => {
                 <span className="hero--heading--span span3">for </span> 
                 <span className="hero--heading--span span4">what </span> 
                 <span className="hero--heading--span span5">comes </span> 
-                <span className="hero--heading--span span6">next</span>
+                <span className="hero--heading--span span6">next.</span>
             </h1>
             <div className="hero--slideshow">
                 <a href="#">
