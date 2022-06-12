@@ -43,3 +43,14 @@ main {
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    main {
+
+        .hero--heading {
+            padding: 22.5vh 12vw 9% 12vw;
+            font-size: 6.25rem;
+            line-height: 100px;
+        }
+    }
+}
