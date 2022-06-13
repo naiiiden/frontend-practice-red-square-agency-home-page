@@ -1,0 +1,20 @@
+.idea--section {
+    padding: 10% 8vw 20vw 8vw;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .idea--section--h2 {
+        font-family: circular-bold;
+        font-size: 1.875rem;
+        line-height: 40px;
+        letter-spacing: -1.41px;
+    }
+
+    .idea--section--p {
+        font-size: 1.375rem;
+        font-weight: 300;
+        line-height: 35px;
+    }
+}
