@@ -423,6 +423,7 @@ main .hero--slideshow a {
 @media screen and (min-width: 768px) {
   .idea--section {
     padding: 5% 6.5vw 10vw 6.5vw;
+    gap: 4.65278vw;
   }
   .idea--section .idea--section--h2 {
     font-size: 3.125rem;
@@ -438,7 +439,6 @@ main .hero--slideshow a {
 @media screen and (min-width: 1024px) {
   .idea--section {
     padding: 10% 12vw 10% 12vw;
-    gap: 4.65278vw;
   }
   .idea--section .idea--section--h2 {
     font-size: 4.51389vw;
