@@ -419,4 +419,19 @@ main .hero--slideshow a {
   font-weight: 300;
   line-height: 35px;
 }
+
+@media screen and (min-width: 768px) {
+  .idea--section {
+    padding: 5% 6.5vw 10vw 6.5vw;
+  }
+  .idea--section .idea--section--h2 {
+    font-size: 3.125rem;
+    letter-spacing: -3px;
+    line-height: 60px;
+  }
+  .idea--section .idea--section--p {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
