@@ -449,4 +449,18 @@ main .hero--slideshow a {
     line-height: 3.81944vw;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .idea--section {
+    gap: 67px;
+  }
+  .idea--section .idea--section--h2 {
+    font-size: 4rem;
+    line-height: 80px;
+  }
+  .idea--section .idea--section--p {
+    font-size: 2.125rem;
+    line-height: 55px;
+  }
+}
 /*# sourceMappingURL=general.css.map */

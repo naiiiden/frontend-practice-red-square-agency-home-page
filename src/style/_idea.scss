@@ -52,3 +52,19 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .idea--section {
+        gap: 67px;
+
+        .idea--section--h2 {
+            font-size: 4rem;
+            line-height: 80px;
+        }
+
+        .idea--section--p {
+            font-size: 2.125rem;
+            line-height: 55px;
+        }
+    }
+}
