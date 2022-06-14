@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
     new WOW({
-        live: false
+        live: false,
     }).init();
 
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1023);

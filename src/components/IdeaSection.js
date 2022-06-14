@@ -2,7 +2,9 @@ import "animate.css";
 import WOW from "wow.js";
 
 const IdeaSection = () => {
-    new WOW().init();
+    new WOW({
+        offset: 200,
+    }).init();
 
     return (
         <section className="idea--section">
