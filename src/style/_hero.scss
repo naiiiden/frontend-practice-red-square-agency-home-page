@@ -63,22 +63,40 @@ main {
             }
         }
     }
-
+    
     .hero--slideshow {
         margin-bottom: 9%;
         position: relative;
         height: calc(82.5vw - 80px);
         background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
         background-size: 100% 100%;
-        animation-name: bgslideshow;
-        animation-duration: 2.5s;
-        animation-iteration-count: infinite;
+        animation-name: bgslideshow, slideup;
+        animation-duration: 2.5s, 5s;
+        animation-iteration-count: infinite, 1;
+        
+        .slideshow {
+            animation-name: slideup;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            
+            @keyframes slideup {
+                0% {
+                    transform: translateY(300px);
+                }
+    
+                100% {
+                    transform: translateY(0);
+                }
+            }
+        }
 
         a {
             width: 100%;
             height: 100%;
             display: inline-block;
         }
+
+        
 
         @keyframes bgslideshow {
             0% {

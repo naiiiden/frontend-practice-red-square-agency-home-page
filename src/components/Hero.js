@@ -1,4 +1,9 @@
+import "animate.css";
+import WOW from "wow.js";
+
 const Hero = () => {
+    new WOW().init();
+    
     return (
         <main>
             <h1 className="hero--heading">
@@ -9,7 +14,7 @@ const Hero = () => {
                 <span className="hero--heading--span span5">comes </span> 
                 <span className="hero--heading--span span6">next.</span>
             </h1>
-            <div className="hero--slideshow">
+            <div className="slideshow hero--slideshow wow animate__animated animate__slideInUp animate__delay-3s">
                 <a href="https://www.redsquareagency.com/work">
                 </a>
             </div>

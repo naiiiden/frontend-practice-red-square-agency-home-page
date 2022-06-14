@@ -206,12 +206,43 @@ main .hero--slideshow {
   height: calc(82.5vw - 80px);
   background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
   background-size: 100% 100%;
-  -webkit-animation-name: bgslideshow;
-          animation-name: bgslideshow;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  -webkit-animation-name: bgslideshow, slideup;
+          animation-name: bgslideshow, slideup;
+  -webkit-animation-duration: 2.5s, 5s;
+          animation-duration: 2.5s, 5s;
+  -webkit-animation-iteration-count: infinite, 1;
+          animation-iteration-count: infinite, 1;
+}
+
+main .hero--slideshow .slideshow {
+  -webkit-animation-name: slideup;
+          animation-name: slideup;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes slideup {
+  0% {
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideup {
+  0% {
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 main .hero--slideshow a {
