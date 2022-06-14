@@ -214,6 +214,15 @@ main .hero--slideshow {
           animation-iteration-count: infinite, 1;
 }
 
+main .hero--slideshow.no--animation {
+  -webkit-animation-name: bgslideshow;
+          animation-name: bgslideshow;
+  -webkit-animation-duration: 2.5s, 5s;
+          animation-duration: 2.5s, 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 main .hero--slideshow .slideshow {
   -webkit-animation-name: slideup;
           animation-name: slideup;

@@ -74,6 +74,12 @@ main {
         animation-duration: 2.5s, 5s;
         animation-iteration-count: infinite, 1;
         
+        &.no--animation {
+            animation-name: bgslideshow;
+            animation-duration: 2.5s, 5s;
+            animation-iteration-count: infinite;
+        }
+
         .slideshow {
             animation-name: slideup;
             animation-duration: 1s;
