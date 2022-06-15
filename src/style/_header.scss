@@ -11,6 +11,30 @@ header {
         line-height: 30px;
         height: 30px;
         background: transparent;
+        animation-name: opacity;
+        animation-duration: 2s;
+
+        @keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            25% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            75% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
 
         span {
             margin-left: .5rem;
