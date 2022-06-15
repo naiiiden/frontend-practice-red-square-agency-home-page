@@ -114,7 +114,7 @@ main {
 
 main .hero--heading {
   color: #fefefe;
-  padding: 30vh 8vw 9% 8vw;
+  padding: 45vh 8vw 9% 8vw;
   font-family: youngserifregular;
   font-weight: 400;
   font-size: 2.3125rem;
@@ -379,7 +379,7 @@ main .hero--slideshow a {
 
 @media screen and (min-width: 768px) {
   main .hero--heading {
-    padding: 25vh 6.5vw 9% 6.5vw;
+    padding: 37.5vh 6.5vw 9% 6.5vw;
     font-size: 4.25rem;
     line-height: 72px;
   }
@@ -390,7 +390,7 @@ main .hero--slideshow a {
 
 @media screen and (min-width: 1024px) {
   main .hero--heading {
-    padding: 22.5vh 12vw 9% 12vw;
+    padding: 30vh 12vw 9% 12vw;
     font-size: 6.94444vw;
     line-height: 6.8vw;
   }
