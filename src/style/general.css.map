@@ -5,7 +5,8 @@
         "general.scss",
         "_header.scss",
         "_hero.scss",
-        "_idea.scss"
+        "_idea.scss",
+        "_clients.scss"
     ],
     "names": [],
     "file": "general.css"
