@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
     new WOW({
-        live: false,
+        // live: false,
     }).init();
 
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1023);
@@ -26,12 +26,12 @@ const Hero = () => {
                 <span className="hero--heading--span span6">next.</span>
             </h1>
             {isDesktop ? (
-            <div className="slideshow hero--slideshow wow animate__animated animate__slideInUp animate__delay-3s">
+            <div className="slideshow hero--slideshow wow animate__animated animate__slideInUp animate__delay-2s">
                 <a href="https://www.redsquareagency.com/work">
                 </a>
             </div>
             ) : (
-                <div className="hero--slideshow no--animation">
+                <div className="slideshow hero--slideshow">
                 <a href="https://www.redsquareagency.com/work">
                 </a>
             </div>
