@@ -609,4 +609,28 @@ main .hero--slideshow a {
             flex: 0 0 41.6667%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .section--border--container {
+    padding: 0 12vw 0 12vw;
+  }
+  .section--border--container .clients--section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section--border--container .clients--section .clients--ul--container {
+    gap: 2rem;
+  }
+  .section--border--container .clients--section .clients--ul--container .clients--ul {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 47.5%;
+            flex: 0 0 47.5%;
+    line-height: 1.6;
+  }
+}
 /*# sourceMappingURL=general.css.map */

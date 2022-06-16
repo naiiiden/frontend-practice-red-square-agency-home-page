@@ -48,3 +48,23 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .section--border--container {
+        padding: 0 12vw 0 12vw;
+
+        .clients--section {
+            flex-direction: row;
+            justify-content: space-between;
+
+            .clients--ul--container {
+                gap: 2rem;
+
+                .clients--ul {
+                    flex: 0 0 47.5%;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+}
