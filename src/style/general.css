@@ -633,4 +633,11 @@ main .hero--slideshow a {
     line-height: 1.6;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .section--border--container .clients--section .clients--ul--container .clients--ul {
+    font-size: 1.66667vw;
+    line-height: 3.33333vw;
+  }
+}
 /*# sourceMappingURL=general.css.map */
