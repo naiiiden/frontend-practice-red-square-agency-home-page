@@ -6,7 +6,7 @@ const Clients = () => {
 
     return (
         <div className="section--border--container">
-            <div className="section--separator wow animate__animated animate__fadeInLeft "></div>
+            <div className="section--separator wow"></div>
             <section className="clients--section">
                 <h3 className="clients--section--heading wow animate__animated animate__fadeIn">Select Clients</h3>
                 <div className="clients--ul--container">
@@ -34,7 +34,7 @@ const Clients = () => {
                     </ul>
                 </div>
             </section>
-            <div className="section--separator wow animate__animated animate__fadeInLeft"></div>
+            <div className="section--separator wow"></div>
         </div>
     )
 }

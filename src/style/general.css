@@ -551,6 +551,28 @@ main .hero--slideshow a {
 .section--border--container .section--separator {
   height: 1px;
   background: rgba(240, 240, 240, 0.1);
+  -webkit-animation-name: reveal;
+          animation-name: reveal;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .section--border--container .clients--section {

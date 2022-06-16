@@ -4,6 +4,18 @@
     .section--separator {
         height: 1px;
         background: hsla(0,0%,94.1%,.1);
+        animation-name: reveal;
+        animation-duration: 1s;
+
+        @keyframes reveal {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
     }
 
     .clients--section {
