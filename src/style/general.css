@@ -619,17 +619,17 @@ main .hero--slideshow a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  }
+  .section--border--container .clients--section .clients--section--heading {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
   }
   .section--border--container .clients--section .clients--ul--container {
-    gap: 2rem;
+    gap: 0;
   }
   .section--border--container .clients--section .clients--ul--container .clients--ul {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 47.5%;
-            flex: 0 0 47.5%;
+    min-width: 16.125rem;
     line-height: 1.6;
   }
 }
@@ -638,6 +638,33 @@ main .hero--slideshow a {
   .section--border--container .clients--section .clients--ul--container .clients--ul {
     font-size: 1.66667vw;
     line-height: 3.33333vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section--border--container .clients--section .clients--ul--container {
+    gap: 3rem;
+  }
+  .section--border--container .clients--section .clients--ul--container .clients--ul {
+    min-width: 17.5rem;
+    font-size: 1.66667vw;
+    line-height: 3.33333vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section--border--container .clients--section .clients--section--heading {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+  }
+  .section--border--container .clients--section .clients--ul--container .clients--ul {
+    min-width: 17.5rem;
+    -webkit-box-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+    font-size: 1.5rem;
+    line-height: 48px;
   }
 }
 /*# sourceMappingURL=general.css.map */
