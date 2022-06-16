@@ -1,9 +1,14 @@
+import "animate.css";
+import WOW from "wow.js";
+
 const Clients = () => {
+    new WOW().init();
+
     return (
         <div className="section--border--container">
-            <div className="section--separator"></div>
+            <div className="section--separator wow animate__animated animate__fadeInLeft "></div>
             <section className="clients--section">
-                <h3 className="clients--section--heading">Select Clients</h3>
+                <h3 className="clients--section--heading wow animate__animated animate__fadeIn">Select Clients</h3>
                 <div className="clients--ul--container">
                     <ul className="clients--ul">
                         <li>Cherokee Casinos</li>
@@ -29,7 +34,7 @@ const Clients = () => {
                     </ul>
                 </div>
             </section>
-            <div className="section--separator"></div>
+            <div className="section--separator wow animate__animated animate__fadeInLeft"></div>
         </div>
     )
 }
