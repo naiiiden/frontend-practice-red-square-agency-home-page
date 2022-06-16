@@ -667,4 +667,10 @@ main .hero--slideshow a {
     line-height: 48px;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .section--border--container .clients--section .clients--ul--container {
+    gap: 9rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
