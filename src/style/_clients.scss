@@ -1,0 +1,36 @@
+.section--border--container {
+    padding: 0 8vw 0 8vw;
+
+    .section--separator {
+        height: 1px;
+        background: hsla(0,0%,94.1%,.1);
+    }
+
+    .clients--section {
+        padding: 6vw 0;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        .clients--section--heading {
+            color: #858585;
+            font-size: 1.125rem;
+            font-weight: 400;
+        }
+
+        .clients--ul--container {
+            display: flex;
+            flex-direction: column;
+
+            .clients--ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                font-size: 1.375rem;
+                font-weight: 300;
+                line-height: 35px;
+                color: $white;
+            }
+        }
+    }
+}
