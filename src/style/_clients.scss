@@ -34,3 +34,17 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .section--border--container {
+        .clients--section {
+            .clients--ul--container {
+                flex-direction: row;
+
+                .clients--ul {
+                    flex: 0 0 41.6667%;
+                }
+            }
+        }
+    }
+}

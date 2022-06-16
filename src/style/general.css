@@ -595,4 +595,18 @@ main .hero--slideshow a {
   line-height: 35px;
   color: #fefefe;
 }
+
+@media screen and (min-width: 768px) {
+  .section--border--container .clients--section .clients--ul--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .section--border--container .clients--section .clients--ul--container .clients--ul {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.6667%;
+            flex: 0 0 41.6667%;
+  }
+}
 /*# sourceMappingURL=general.css.map */
