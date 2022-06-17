@@ -3,18 +3,21 @@ import { ReactComponent as Ig } from "../images/IG.svg";
 import { ReactComponent as Tw } from "../images/TW.svg";
 import { ReactComponent as Li } from "../images/LI.svg";
 import Tilt from 'react-parallax-tilt';
+import "animate.css";
+import WOW from "wow.js";
 
 const Footer = () => {
+    new WOW().init();
 
     return (
         <footer>
-            <a id="follow" className="footer--lets--talk--link" href="mailto:hi@rsq.com">
+            <a id="follow" className="footer--lets--talk--link wow animate__animated animate__fadeInUp" href="mailto:hi@rsq.com">
                 <Tilt>
                     <h4>Let's talk</h4>
                     <span>hi@rsq.com</span>
                 </Tilt>
             </a>
-            <div className="socials--locations--container">
+            <div className="socials--locations--container wow animate__animated animate__fadeInUp">
                 <nav className="socials--container">
                     <div className="nugs--container">
                         <div className="plus"><span>+</span></div>
