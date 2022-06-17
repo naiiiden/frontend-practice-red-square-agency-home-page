@@ -16,4 +16,66 @@ footer {
             color: $red;
         }
     }
+
+    .socials--locations--container {
+        display: flex;
+        flex-direction: column;
+
+        .socials--container {
+            display: flex;
+
+            .nugs--container {
+                display: flex;
+                gap: 3.5px;
+                margin-right: 32px;
+
+                .plus {
+                    height: 20px;
+                    width: 20px;
+                    background: $white;
+                    border-radius: 20px;
+	                transition: .2s;
+                    display: grid;
+                    place-content: center;
+                    position: relative;
+
+                    span {
+                        font-size: 1rem;
+                        position: absolute;
+                        top: 45%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-weight: bold;
+	                    transition: .2s;
+                    }
+                }
+                
+                .nugs {
+                    fill: #fefefe;
+                    transition: .2s;
+                }
+            
+                &:hover {
+                    .plus {
+                        opacity: .55;
+	                    transition: .2s;
+
+                        span {
+                            font-size: 1.125rem;
+	                        transition: .2s;
+                        }
+                    }
+
+                    .nugs {
+                        opacity: .55;
+                        transition: .2s;
+                    }
+                }
+            }
+
+            .tw, .li, .ig {
+                margin-right: 32px;
+            }
+        }
+    }
 }

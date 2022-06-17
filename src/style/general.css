@@ -716,4 +716,81 @@ footer .footer--lets--talk--link h4 {
 footer .footer--lets--talk--link span {
   color: #e31e3c;
 }
+
+footer .socials--locations--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .socials--locations--container .socials--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .socials--locations--container .socials--container .nugs--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.5px;
+  margin-right: 32px;
+}
+
+footer .socials--locations--container .socials--container .nugs--container .plus {
+  height: 20px;
+  width: 20px;
+  background: #fefefe;
+  border-radius: 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+footer .socials--locations--container .socials--container .nugs--container .plus span {
+  font-size: 1rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: bold;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+footer .socials--locations--container .socials--container .nugs--container .nugs {
+  fill: #fefefe;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+footer .socials--locations--container .socials--container .nugs--container:hover .plus {
+  opacity: .55;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+footer .socials--locations--container .socials--container .nugs--container:hover .plus span {
+  font-size: 1.125rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+footer .socials--locations--container .socials--container .nugs--container:hover .nugs {
+  opacity: .55;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+footer .socials--locations--container .socials--container .tw, footer .socials--locations--container .socials--container .li, footer .socials--locations--container .socials--container .ig {
+  margin-right: 32px;
+}
 /*# sourceMappingURL=general.css.map */

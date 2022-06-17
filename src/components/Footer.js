@@ -14,12 +14,12 @@ const Footer = () => {
             <div className="socials--locations--container">
                 <nav className="socials--container">
                     <div className="nugs--container">
-                        <div className="plus"></div>
-                        <Nugs/>
+                        <div className="plus"><span>+</span></div>
+                        <Nugs className="nugs"/>
                     </div>
-                    <Ig/>
-                    <Tw/>
-                    <Li/>
+                    <Ig className="ig"/>
+                    <Tw className="tw"/>
+                    <Li className="li"/>
                 </nav>
                 <div className="locations--container">
                     <h5>Mobile, AL</h5>
