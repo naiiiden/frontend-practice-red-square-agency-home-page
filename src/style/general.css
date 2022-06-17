@@ -846,6 +846,49 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
     font-size: 2.3125rem;
     letter-spacing: -1.73px;
     line-height: 41px;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  @-webkit-keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  footer .footer--lets--talk--link:hover {
+    -webkit-box-shadow: 0vw 0vh 50rem 100vw rgba(0, 0, 0, 0.5);
+            box-shadow: 0vw 0vh 50rem 100vw rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   footer .socials--locations--container {
     gap: 1rem;
