@@ -823,7 +823,7 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
   }
   footer .footer--lets--talk--link {
     font-size: 4rem;
-    letter-spacing: -.3px;
+    letter-spacing: -3px;
     line-height: 66px;
   }
 }
@@ -852,6 +852,14 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  footer .footer--lets--talk--link {
+    font-size: 4rem;
+    letter-spacing: -3px;
+    line-height: 66px;
   }
 }
 /*# sourceMappingURL=general.css.map */
