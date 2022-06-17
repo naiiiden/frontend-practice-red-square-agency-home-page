@@ -846,6 +846,8 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
     font-size: 2.3125rem;
     letter-spacing: -1.73px;
     line-height: 41px;
+    -webkit-transform: rotateY(0deg) rotateX(0deg) scale(1);
+            transform: rotateY(0deg) rotateX(0deg) scale(1);
     -webkit-transition: .2s;
     transition: .2s;
   }

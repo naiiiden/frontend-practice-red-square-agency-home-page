@@ -2,14 +2,17 @@ import { ReactComponent as Nugs } from "../images/Nugs.svg";
 import { ReactComponent as Ig } from "../images/IG.svg";
 import { ReactComponent as Tw } from "../images/TW.svg";
 import { ReactComponent as Li } from "../images/LI.svg";
-
+import Tilt from 'react-parallax-tilt';
 
 const Footer = () => {
+
     return (
         <footer>
-            <a className="footer--lets--talk--link" href="mailto:hi@rsq.com">
-                <h4>Let's talk</h4>
-                <span>hi@rsq.com</span>
+            <a id="follow" className="footer--lets--talk--link" href="mailto:hi@rsq.com">
+                <Tilt>
+                    <h4>Let's talk</h4>
+                    <span>hi@rsq.com</span>
+                </Tilt>
             </a>
             <div className="socials--locations--container">
                 <nav className="socials--container">

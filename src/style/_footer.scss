@@ -120,7 +120,9 @@ footer {
             font-size: 2.3125rem;
             letter-spacing: -1.73px;
             line-height: 41px;
+            transform: rotateY(0deg) rotateX(0deg) scale(1);
             transition: .2s;
+            // transition: transform 0.05s ease-out;
             // animation-name: opacity;
             // animation-duration: 2s;
 
