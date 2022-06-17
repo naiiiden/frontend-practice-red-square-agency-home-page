@@ -95,3 +95,16 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    footer {
+        padding: 4rem 8vw;
+        gap: 2.5rem;
+
+        .footer--lets--talk--link {
+            font-size: 4rem;
+            letter-spacing: -.3px;
+            line-height: 66px;
+        }
+    }
+}

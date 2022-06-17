@@ -815,4 +815,16 @@ footer .socials--locations--container .socials--container .nugs--container:hover
 footer .socials--locations--container .socials--container .tw, footer .socials--locations--container .socials--container .li, footer .socials--locations--container .socials--container .ig {
   margin-right: 32px;
 }
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 4rem 8vw;
+    gap: 2.5rem;
+  }
+  footer .footer--lets--talk--link {
+    font-size: 4rem;
+    letter-spacing: -.3px;
+    line-height: 66px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
