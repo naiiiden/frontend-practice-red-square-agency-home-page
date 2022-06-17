@@ -1,0 +1,19 @@
+footer {
+    padding: 4vw 8vw;
+
+    .footer--lets--talk--link {
+        font-size: 2.3125rem;
+        font-family: circular-bold;
+        letter-spacing: -1.73px;
+        line-height: 41px;
+        text-decoration: none;
+        
+        h4 {
+            color: $white;
+        }
+
+        span {
+            color: $red;
+        }
+    }
+}

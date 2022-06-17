@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>IG</title>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <style>
+    .ig {
+        width: 20px;
+        height: 20px;
+        fill: #fefefe;
+	    transition: .2s;
+    }
+
+    .ig:hover {
+        opacity: .55;
+	    transition: .2s;
+    }
+    </style>
+    <g class="ig" id="Desktop" stroke="none" stroke-width="1" fill-rule="evenodd">
         <g id="Red-Home-2021" transform="translate(-1243.000000, -3145.000000)" fill-rule="nonzero">
             <g id="Footer" transform="translate(220.000000, 3069.000000)">
                 <g id="Social" transform="translate(1023.000000, 76.000000)">
