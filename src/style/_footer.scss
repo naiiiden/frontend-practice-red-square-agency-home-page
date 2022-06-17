@@ -1,5 +1,9 @@
 footer {
-    padding: 4vw 8vw;
+    padding: 2rem 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
 
     .footer--lets--talk--link {
         font-size: 2.3125rem;
@@ -20,6 +24,18 @@ footer {
     .socials--locations--container {
         display: flex;
         flex-direction: column;
+        gap: 2rem;
+
+        .locations--container {
+            display: flex;
+
+            h5 {
+                color: #858585;
+                font-size: 1.125rem;
+                font-weight: 400;
+                margin-right: 2rem;
+            }
+        }
 
         .socials--container {
             display: flex;
