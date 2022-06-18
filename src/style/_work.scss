@@ -1,0 +1,38 @@
+.work--container {
+    margin-top: 1rem;
+    background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 180px;
+    max-height: 240px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .test {
+        position: absolute;
+        backdrop-filter: blur(.375rem);
+        width: 100%;
+        z-index: 0;
+        height: 180px;
+    }
+
+    h3, a {
+        position: relative;
+        z-index: 1;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    a {
+        display: flex;
+        gap: 10px;
+        font-size: 1.0625rem;
+        color: $white;
+        text-decoration: none;
+    }
+
+}

@@ -907,4 +907,51 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
     line-height: 66px;
   }
 }
+
+.work--container {
+  margin-top: 1rem;
+  background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 180px;
+  max-height: 240px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work--container .test {
+  position: absolute;
+  -webkit-backdrop-filter: blur(0.375rem);
+          backdrop-filter: blur(0.375rem);
+  width: 100%;
+  z-index: 0;
+  height: 180px;
+}
+
+.work--container h3, .work--container a {
+  position: relative;
+  z-index: 1;
+}
+
+.work--container h3 {
+  display: none;
+}
+
+.work--container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  font-size: 1.0625rem;
+  color: #fefefe;
+  text-decoration: none;
+}
 /*# sourceMappingURL=general.css.map */
