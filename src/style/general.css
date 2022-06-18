@@ -160,6 +160,56 @@ main .hero--heading {
   font-size: 2.3125rem;
   line-height: 45px;
   letter-spacing: -.59px;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  25% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  75% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  25% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  75% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 main .hero--heading .span1 {
@@ -248,8 +298,8 @@ main .hero--slideshow {
   background-size: 100% 100%;
   -webkit-animation-name: bgslideshow, slideup;
           animation-name: bgslideshow, slideup;
-  -webkit-animation-duration: 2.5s, 5s;
-          animation-duration: 2.5s, 5s;
+  -webkit-animation-duration: 2.5s, 3s;
+          animation-duration: 2.5s, 3s;
   -webkit-animation-iteration-count: infinite, 1;
           animation-iteration-count: infinite, 1;
 }
@@ -257,8 +307,8 @@ main .hero--slideshow {
 main .hero--slideshow.no--animation {
   -webkit-animation-name: bgslideshow;
           animation-name: bgslideshow;
-  -webkit-animation-duration: 2.5s, 5s;
-          animation-duration: 2.5s, 5s;
+  -webkit-animation-duration: 2.5s, 3s;
+          animation-duration: 2.5s, 3s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }

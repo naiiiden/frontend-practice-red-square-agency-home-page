@@ -10,6 +10,30 @@ main {
         font-size: 2.3125rem;
         line-height: 45px;
         letter-spacing: -.59px;
+        animation-name: slide;
+        animation-duration: 5s;
+
+        @keyframes slide {
+            0% {
+                transform: translateY(50px);
+            }
+
+            25% {
+                transform: translateY(50px);
+            }
+
+            50% {
+                transform: translateY(50px);
+            }
+
+            75% {
+                transform: translateY(50px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
 
         .span1 {
             animation-name: fadein;
@@ -71,12 +95,12 @@ main {
         background: url("https://images.prismic.io/red-square-site/7ee825e0906b2918e50a9f963c50198b5c26b27d_flip-thumb.jpg?auto=compress,format");
         background-size: 100% 100%;
         animation-name: bgslideshow, slideup;
-        animation-duration: 2.5s, 5s;
+        animation-duration: 2.5s, 3s;
         animation-iteration-count: infinite, 1;
         
         &.no--animation {
             animation-name: bgslideshow;
-            animation-duration: 2.5s, 5s;
+            animation-duration: 2.5s, 3s;
             animation-iteration-count: infinite;
         }
 
