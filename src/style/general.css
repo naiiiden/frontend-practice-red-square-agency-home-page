@@ -966,4 +966,38 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
     min-height: 240px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .work--container {
+    margin: 5rem 8vw 0 8vw;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 3rem;
+    min-height: unset;
+    height: 80px;
+  }
+  .work--container .blur--bg {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .work--container h3 {
+    display: block;
+    font-size: 1.5rem;
+    color: #fefefe;
+    font-weight: 400;
+  }
+  .work--container a {
+    font-size: 1.25rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
