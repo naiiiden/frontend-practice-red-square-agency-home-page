@@ -10,12 +10,12 @@
     justify-content: center;
     align-items: center;
 
-    .test {
+    .blur--bg {
         position: absolute;
         backdrop-filter: blur(.375rem);
         width: 100%;
         z-index: 0;
-        height: 180px;
+        height: 100%;
     }
 
     h3, a {
@@ -34,5 +34,16 @@
         color: $white;
         text-decoration: none;
     }
+}
 
+@media screen and (min-width: 375px) {
+    .work--container {
+        min-height: 213px; 
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .work--container {
+        min-height: 240px;
+    }
 }

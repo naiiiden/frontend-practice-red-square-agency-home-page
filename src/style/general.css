@@ -927,13 +927,13 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
           align-items: center;
 }
 
-.work--container .test {
+.work--container .blur--bg {
   position: absolute;
   -webkit-backdrop-filter: blur(0.375rem);
           backdrop-filter: blur(0.375rem);
   width: 100%;
   z-index: 0;
-  height: 180px;
+  height: 100%;
 }
 
 .work--container h3, .work--container a {
@@ -953,5 +953,17 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
   font-size: 1.0625rem;
   color: #fefefe;
   text-decoration: none;
+}
+
+@media screen and (min-width: 375px) {
+  .work--container {
+    min-height: 213px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .work--container {
+    min-height: 240px;
+  }
 }
 /*# sourceMappingURL=general.css.map */
