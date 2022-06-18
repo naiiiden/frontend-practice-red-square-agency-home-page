@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontend-practice-red-square-agency-home-page/static/css/main.873862cf.css",
+    "main.js": "/frontend-practice-red-square-agency-home-page/static/js/main.7ef67296.js",
+    "static/media/lineto-circular-bold.woff2": "/frontend-practice-red-square-agency-home-page/static/media/lineto-circular-bold.f817e60da2bacff0143b.woff2",
+    "static/media/YoungSerif-Regular.otf": "/frontend-practice-red-square-agency-home-page/static/media/YoungSerif-Regular.294dff682f63310a99db.otf",
+    "static/media/lineto-circular-book.woff2": "/frontend-practice-red-square-agency-home-page/static/media/lineto-circular-book.5b0e4a984d88022c145a.woff2",
+    "static/media/square.svg": "/frontend-practice-red-square-agency-home-page/static/media/square.295c2b266a99087a365e5e8fc6a37521.svg",
+    "static/media/Nugs.svg": "/frontend-practice-red-square-agency-home-page/static/media/Nugs.5178cec5a097912e1cf13356ad92adcc.svg",
+    "static/media/IG.svg": "/frontend-practice-red-square-agency-home-page/static/media/IG.7738f977167766adf841d84ff3c1d0f9.svg",
+    "static/media/LI.svg": "/frontend-practice-red-square-agency-home-page/static/media/LI.c753088a55e9ded03c02588e2c2844af.svg",
+    "static/media/TW.svg": "/frontend-practice-red-square-agency-home-page/static/media/TW.bbad5529800d00b846086310b297680d.svg",
+    "index.html": "/frontend-practice-red-square-agency-home-page/index.html",
+    "static/media/arrow.svg": "/frontend-practice-red-square-agency-home-page/static/media/arrow.59edd7eb7972146095651d60a24ea1ec.svg",
+    "main.873862cf.css.map": "/frontend-practice-red-square-agency-home-page/static/css/main.873862cf.css.map",
+    "main.7ef67296.js.map": "/frontend-practice-red-square-agency-home-page/static/js/main.7ef67296.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.873862cf.css",
+    "static/js/main.7ef67296.js"
+  ]
+}
