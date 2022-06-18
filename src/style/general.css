@@ -1004,12 +1004,12 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
 @media screen and (min-width: 1024px) {
   .work--container {
     padding: 0 4rem;
-    bottom: -5px;
     -webkit-transition: .2s;
     transition: .2s;
   }
   .work--container:hover {
-    bottom: 0;
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
     -webkit-transition: .2s;
     transition: .2s;
   }

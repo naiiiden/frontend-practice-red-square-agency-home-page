@@ -84,13 +84,12 @@
 @media screen and (min-width: 1024px) {
     .work--container {
         padding: 0 4rem;
-        bottom: -5px;
         transition: .2s;
 
         &:hover {
-            bottom: 0;
+            transform: scaleY(1.1);
             transition: .2s;
-
+            
             .blur--bg {
                 backdrop-filter: unset;
                 transition: .2s;
