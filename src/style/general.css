@@ -980,7 +980,7 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
             justify-content: space-between;
     padding: 0 3rem;
     min-height: unset;
-    height: 80px;
+    height: 75px;
   }
   .work--container .blur--bg {
     border-top-left-radius: .5rem;
@@ -998,6 +998,26 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
   }
   .work--container a {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .work--container {
+    padding: 0 4rem;
+    bottom: -5px;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .work--container:hover {
+    bottom: 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .work--container:hover .blur--bg {
+    -webkit-backdrop-filter: unset;
+            backdrop-filter: unset;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 /*# sourceMappingURL=general.css.map */

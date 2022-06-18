@@ -57,7 +57,7 @@
         justify-content: space-between;
         padding: 0 3rem;
         min-height: unset;
-        height: 80px;
+        height: 75px;
 
         .blur--bg {
             border-top-left-radius: .5rem;
@@ -77,6 +77,24 @@
         
         a {
             font-size: 1.25rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .work--container {
+        padding: 0 4rem;
+        bottom: -5px;
+        transition: .2s;
+
+        &:hover {
+            bottom: 0;
+            transition: .2s;
+
+            .blur--bg {
+                backdrop-filter: unset;
+                transition: .2s;
+            }
         }
     }
 }
