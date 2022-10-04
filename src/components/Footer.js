@@ -21,7 +21,7 @@ const Footer = () => {
                     </Tilt>
                 </a>
                 <div className="socials--locations--container wow animate__animated animate__fadeInUp">
-                    <nav className="socials--container">
+                    <nav className="socials--container" aria-label="Footer">
                         <div className="nugs--container">
                             <div className="plus"><span>+</span></div>
                             <Nugs className="nugs"/>
