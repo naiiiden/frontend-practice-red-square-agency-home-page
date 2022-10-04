@@ -27,12 +27,12 @@ const Hero = () => {
             </h1>
             {isDesktop ? (
             <div className="slideshow hero--slideshow wow animate__animated animate__slideInUp animate__delay-2s">
-                <a href="https://www.redsquareagency.com/work">
+                <a href="https://www.redsquareagency.com/work" aria-label="See our projects">
                 </a>
             </div>
             ) : (
                 <div className="slideshow hero--slideshow">
-                <a href="https://www.redsquareagency.com/work">
+                <a href="https://www.redsquareagency.com/work" aria-label="See our projects">
                 </a>
             </div>
             )}
