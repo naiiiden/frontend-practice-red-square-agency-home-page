@@ -806,7 +806,7 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
 .work--container h3 {
   display: none;
 }
-.work--container a {
+.work--container a, .work--container span {
   display: flex;
   gap: 10px;
   font-size: 1.0625rem;
@@ -849,7 +849,7 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
     color: #fefefe;
     font-weight: 400;
   }
-  .work--container a {
+  .work--container a, .work--container span {
     font-size: 1.25rem;
   }
 }

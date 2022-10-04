@@ -27,7 +27,7 @@
         display: none;
     }
 
-    a {
+    a, span {
         display: flex;
         gap: 10px;
         font-size: 1.0625rem;
@@ -75,7 +75,7 @@
             font-weight: 400;
         }
         
-        a {
+        a, span {
             font-size: 1.25rem;
         }
     }
