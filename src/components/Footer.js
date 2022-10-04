@@ -23,9 +23,9 @@ const Footer = () => {
                         <div className="plus"><span>+</span></div>
                         <Nugs className="nugs"/>
                     </div>
-                    <a href="https://www.instagram.com/redsquareagency"><Ig className="ig"/></a>
-                    <a href="https://twitter.com/redsquareagency"><Tw className="tw"/></a>
-                    <a href="https://www.linkedin.com/company/red-square-agency/"><Li className="li"/></a>
+                    <a href="https://www.instagram.com/redsquareagency" aria-label="Our Instagram"><Ig className="ig"/></a>
+                    <a href="https://twitter.com/redsquareagency" aria-label="Our Twitter"><Tw className="tw"/></a>
+                    <a href="https://www.linkedin.com/company/red-square-agency/" aria-label="Our LinkedIn"><Li className="li"/></a>
                 </nav>
                 <div className="locations--container">
                     <h5>Mobile, AL</h5>
