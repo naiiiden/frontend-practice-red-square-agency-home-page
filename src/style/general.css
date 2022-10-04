@@ -623,48 +623,48 @@ main .hero--slideshow a {
     gap: 9rem;
   }
 }
-footer {
+.footer {
   padding: 2rem 8vw;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-footer .footer--lets--talk--link {
+.footer .footer--lets--talk--link {
   font-size: 2.3125rem;
   font-family: circular-bold;
   letter-spacing: -1.73px;
   line-height: 41px;
   text-decoration: none;
 }
-footer .footer--lets--talk--link h4 {
+.footer .footer--lets--talk--link h4 {
   color: #fefefe;
 }
-footer .footer--lets--talk--link span {
+.footer .footer--lets--talk--link span {
   color: #e31e3c;
 }
-footer .socials--locations--container {
+.footer .socials--locations--container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-footer .socials--locations--container .locations--container {
+.footer .socials--locations--container .locations--container {
   display: flex;
 }
-footer .socials--locations--container .locations--container h5 {
+.footer .socials--locations--container .locations--container h5 {
   color: #858585;
   font-size: 1.125rem;
   font-weight: 400;
   margin-right: 2rem;
 }
-footer .socials--locations--container .socials--container {
+.footer .socials--locations--container .socials--container {
   display: flex;
 }
-footer .socials--locations--container .socials--container .nugs--container {
+.footer .socials--locations--container .socials--container .nugs--container {
   display: flex;
   gap: 3.5px;
   margin-right: 32px;
 }
-footer .socials--locations--container .socials--container .nugs--container .plus {
+.footer .socials--locations--container .socials--container .nugs--container .plus {
   height: 20px;
   width: 20px;
   background: #fefefe;
@@ -674,7 +674,7 @@ footer .socials--locations--container .socials--container .nugs--container .plus
   place-content: center;
   position: relative;
 }
-footer .socials--locations--container .socials--container .nugs--container .plus span {
+.footer .socials--locations--container .socials--container .nugs--container .plus span {
   font-size: 1rem;
   position: absolute;
   top: 45%;
@@ -683,45 +683,45 @@ footer .socials--locations--container .socials--container .nugs--container .plus
   font-weight: bold;
   transition: 0.2s;
 }
-footer .socials--locations--container .socials--container .nugs--container .nugs {
+.footer .socials--locations--container .socials--container .nugs--container .nugs {
   fill: #fefefe;
   transition: 0.2s;
 }
-footer .socials--locations--container .socials--container .nugs--container:hover .plus {
+.footer .socials--locations--container .socials--container .nugs--container:hover .plus {
   opacity: 0.55;
   transition: 0.2s;
 }
-footer .socials--locations--container .socials--container .nugs--container:hover .plus span {
+.footer .socials--locations--container .socials--container .nugs--container:hover .plus span {
   font-size: 1.125rem;
   transition: 0.2s;
 }
-footer .socials--locations--container .socials--container .nugs--container:hover .nugs {
+.footer .socials--locations--container .socials--container .nugs--container:hover .nugs {
   opacity: 0.55;
   transition: 0.2s;
 }
-footer .socials--locations--container .socials--container .tw, footer .socials--locations--container .socials--container .li, footer .socials--locations--container .socials--container .ig {
+.footer .socials--locations--container .socials--container .tw, .footer .socials--locations--container .socials--container .li, .footer .socials--locations--container .socials--container .ig {
   margin-right: 32px;
 }
 
 @media screen and (min-width: 768px) {
-  footer {
+  .footer {
     padding: 4rem 8vw;
     gap: 2.5rem;
   }
-  footer .footer--lets--talk--link {
+  .footer .footer--lets--talk--link {
     font-size: 4rem;
     letter-spacing: -3px;
     line-height: 66px;
   }
 }
 @media screen and (min-width: 1024px) {
-  footer {
+  .footer {
     padding: 5rem 12vw;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
   }
-  footer .footer--lets--talk--link {
+  .footer .footer--lets--talk--link {
     font-size: 2.3125rem;
     letter-spacing: -1.73px;
     line-height: 41px;
@@ -762,18 +762,18 @@ footer .socials--locations--container .socials--container .tw, footer .socials--
       opacity: 1;
     }
   }
-  footer .footer--lets--talk--link:hover {
+  .footer .footer--lets--talk--link:hover {
     box-shadow: 0vw 0vh 50rem 100vw rgba(0, 0, 0, 0.5);
     background: rgba(0, 0, 0, 0.5);
     transition: 0.2s;
   }
-  footer .socials--locations--container {
+  .footer .socials--locations--container {
     gap: 1rem;
     align-items: flex-end;
   }
 }
 @media screen and (min-width: 1280px) {
-  footer .footer--lets--talk--link {
+  .footer .footer--lets--talk--link {
     font-size: 4rem;
     letter-spacing: -3px;
     line-height: 66px;

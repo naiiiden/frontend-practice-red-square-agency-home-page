@@ -1,4 +1,4 @@
-footer {
+.footer {
     padding: 2rem 8vw;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    footer {
+    .footer {
         padding: 4rem 8vw;
         gap: 2.5rem;
 
@@ -110,7 +110,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    footer {
+    .footer {
         padding: 5rem 12vw;
         flex-direction: row;
         justify-content: space-between;
@@ -122,9 +122,6 @@ footer {
             line-height: 41px;
             transform: rotateY(0deg) rotateX(0deg) scale(1);
             transition: .2s;
-            // transition: transform 0.05s ease-out;
-            // animation-name: opacity;
-            // animation-duration: 2s;
 
             @keyframes opacity {
                 0% {
@@ -165,7 +162,7 @@ footer {
 }
 
 @media screen and (min-width: 1280px) {
-    footer {
+    .footer {
         .footer--lets--talk--link {
             font-size: 4rem;
             letter-spacing: -3px;
